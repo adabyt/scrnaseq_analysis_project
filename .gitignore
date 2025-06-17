@@ -1,0 +1,8 @@
+.DS_Store
+*.csv
+*.tiff
+*.h5ad
+.ipynb_checkpoints/
+__pycache__/
+data/
+*.log
