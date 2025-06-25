@@ -1,8 +1,35 @@
-.DS_Store
-*.csv
-*.tiff
-*.h5ad
-.ipynb_checkpoints/
+# Python specific ignores
 __pycache__/
-data/
-*.log
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.ipynb_checkpoints/
+*.egg-info/
+.pytest_cache/
+
+# Jupyter Notebook specific ignores
+# .ipynb_checkpoints/  <-- (You can remove this duplicate line if you want, as it's already above)
+
+# Data files (often large, should not be tracked by Git)
+*.h5ad
+*.csv
+*.tsv
+*.txt
+*.gz
+*.zip
+
+# Plot/Figure files
+*.png
+*.pdf
+*.svg
+*.jpeg
+*.jpg
+*.tiff
+*.tif
+
+# Operating System generated files
+.DS_Store # macOS
+Thumbs.db # Windows
